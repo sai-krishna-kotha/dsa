@@ -29,11 +29,11 @@ def move_zeroes_3(arr):
             cnt += 1
     return arr
 if __name__ == '__main__':
-    tc = []
-    tc.append([1,2,0,4,3,0,0,5,0])
-    tc.append([10,20,30])
-    tc.append([0,0])
-    for i, arr in enumerate(tc):
+    tcs = []
+    tcs.append([1,2,0,4,3,0,0,5,0])
+    tcs.append([10,20,30])
+    tcs.append([0,0])
+    for i, arr in enumerate(tcs):
         # ans = move_zeroes_1(arr)
         # ans = move_zeroes_2(arr)
         ans = move_zeroes_3(arr)

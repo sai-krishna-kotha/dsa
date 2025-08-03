@@ -31,10 +31,10 @@ def second_largest_3(arr):
 	
 	
 if __name__ == '__main__':
-	tc = []
-	tc.append([12,35,1,10,34,35,1])
-	tc.append([1,1,1])
-	for i, arr in enumerate(tc):
+	tcs = []
+	tcs.append([12,35,1,10,34,35,1])
+	tcs.append([1,1,1])
+	for i, arr in enumerate(tcs):
 		# ans = second_largest_1(arr)
 		# ans = second_largest_2(arr)
 		ans = second_largest_3(arr)
